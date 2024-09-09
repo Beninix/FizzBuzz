@@ -31,12 +31,12 @@ class FizzBuzz {
             }
         }
   */
-        doFizzBuzz();
+        doFizzBuzz(100);
     }
 
-    private static void doFizzBuzz() {
+    public static void doFizzBuzz(int range) {
         int x = 1;
-        while(x < 100){
+        while(x < range){
             // Find out which numbers divide i.
             boolean divisibleBy3 = x % 3 == 0;
             boolean divisibleBy5 = x % 5 == 0;
